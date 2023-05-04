@@ -1,12 +1,36 @@
-import React from 'react';
-// import { Counter } from './features/counter/Counter';
+import React, { useEffect } from 'react';
 import './App.css';
 import Homescreen from './components/Homescreen';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import LoginScreen from './components/LoginScreen';
-import SignupScreen from './components/SignupScreen';
+import { onAuthStateChanged } from 'firebase/auth';
+import { auth } from './firebase';
+import { useDispatch, useSelector } from 'react-redux';
+import { login, logout, selectUser } from './features/user/userSlice';
+import ProfileScreen from './components/ProfileScreen';
+import LoginScreen from './components/LoginScreen'
 
 function App() {
+  const user = useSelector(selectUser);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user)=>{
+      if(user) {
+        // Logged in
+        // const uid = user.uid
+        console.log(user)
+        dispatch(login({
+          uid: user.uid,
+          email: user.email
+        }))
+      } else {
+        // Logged out
+        dispatch(logout)
+      } 
+    })
+    return unsubscribe;
+  }, [])
+  
   const router = createBrowserRouter([
     {
       path: '/',
@@ -17,8 +41,8 @@ function App() {
       element: <LoginScreen />
     },
     {
-      path: '/signup',
-      element: <SignupScreen />
+      path: '/profile',
+      element: <ProfileScreen />
     }
   ])
   return (

@@ -1,0 +1,91 @@
+.profileScreen {
+    background-color: white;
+    min-height: 100vh;
+}
+.profileScreen__body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    max-width: 43vw;
+    padding: 5px;
+    color: white;
+}
+.profileScreen__body>h1 {
+    font-weight: 100;
+    font-size: 2.4rem;
+    line-height: 0;
+    margin-bottom: 2rem;
+}
+.profileScreen__info>img {
+    float: left;
+    width: 6vw;
+}
+.profileScreen__details {
+    margin-left: 7vw;
+}
+.profileScreen__signout {
+    width: 100%;
+    padding: 0.4rem;
+    background-color: red;
+    color: white;
+    outline-width: 0;
+    border: none;
+    border-radius: 0.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.profileScreen__details>h5 {
+    width: inherit;
+    padding: 0.85rem;
+    background-color: rgb(116, 116, 116);
+    font-size: 0.85rem;
+}
+.profileScreen__plans>h4 {
+    margin: 0;
+    font-weight: 600;
+}
+.profileScreen__plans>hr {
+    opacity: 0.1;
+}
+.profileScreen__plans>h5 {
+    margin-top: 0.7rem;
+    font-weight: 100;
+    color: rgb(76, 76, 76);
+    font-size: 0.9rem;
+}
+.profileScreen__subs {
+    /* margin-left: 1.4rem; */
+    padding: 0.5rem 0;
+}
+.profileScreen__sub {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.sub__info {
+    
+}
+.profileScreen__sub>div>h2 {
+    margin: 0;;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.profileScreen__sub>div>h3 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.sub__button {
+    border: none;
+    border-radius: 0.1rem;
+    background-color: red;
+    width: auto;
+    padding: 0.6rem;
+    font-weight: 570;
+    text-shadow: 0.1px 0.1px 1px black;
+    cursor: pointer;
+}
