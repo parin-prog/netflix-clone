@@ -1,12 +1,12 @@
 .profileScreen {
-    background-color: white;
+    background-color: black;
     min-height: 100vh;
 }
 .profileScreen__body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vh;
-    max-width: 43vw;
+    max-width: 55vw;
     padding: 5px;
     color: white;
 }
@@ -18,15 +18,15 @@
 }
 .profileScreen__info>img {
     float: left;
-    width: 6vw;
+    width: 8vw;
 }
 .profileScreen__details {
-    margin-left: 7vw;
+    margin-left: 11vw;
 }
 .profileScreen__signout {
     width: 100%;
-    padding: 0.4rem;
-    background-color: red;
+    padding: 0.7rem 0;
+    background-color: rgb(233, 9, 1);
     color: white;
     outline-width: 0;
     border: none;
@@ -59,12 +59,11 @@
     padding: 0.5rem 0;
 }
 .profileScreen__sub {
-    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     font-weight: 100;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1.2rem;
 }
 .sub__info {
     
@@ -82,10 +81,14 @@
 .sub__button {
     border: none;
     border-radius: 0.1rem;
-    background-color: red;
-    width: auto;
-    padding: 0.6rem;
-    font-weight: 570;
+    background-color: rgb(205, 21, 21);
+    padding: 0.65rem;
+    font-weight: 550;
+    color: white;
     text-shadow: 0.1px 0.1px 1px black;
     cursor: pointer;
+}
+
+.sub__button:hover {
+    background-color: rgb(255, 8, 0);
 }

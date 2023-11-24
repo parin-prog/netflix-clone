@@ -31,7 +31,7 @@ const Banner = () => {
                 <button className="banner__button">Play</button>
                 <button className="banner__button">Your List</button>
             </div>
-            <h2 className='banner__description'>{movie.overview && truncate(`${movie?.overview}`, 150)}</h2>
+            <h2 className='banner__description'>{movie.overview && truncate(`${movie?.overview}`, 300)}</h2>
         </div>
         <div className="banner__fadebottom"></div>
     </header>

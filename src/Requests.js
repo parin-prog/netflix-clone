@@ -1,4 +1,4 @@
-const API_KEY = 'f034c105e8f882af1a40d68df85168db'
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const requests = {
     fetchPopular : `/discover/tv?api_key=${API_KEY}&with_watch_providers=8&watch_region=US`,

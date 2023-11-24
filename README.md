@@ -1,46 +1,66 @@
-# Getting Started with Create React App and Redux
+ # Netflix-Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+### Overview :
 
-In the project directory, you can run:
+It's built using ReactJS, JavaScript, Bootstrap5 and TMDB API. It has a sleek and modern user interface that mimics Netflix, but with some interesting changes. You can explore movies and web series from different genres and interact with them using the Netflix UI. It's a fun and easy way to discover new content and enjoy.
+--
+application is hosted [HERE!](https://netflix-clone-parin-prog.vercel.app/)
 
-### `npm start`
+**SCREENSHOTS:**
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img altr="1" src="https://github.com/parin-prog/netflix-clone/blob/master/src/assets/img1.png" height="200">  <img altr="1" src="https://github.com/parin-prog/netflix-clone/blob/master/src/assets/img2.png" height="200">  <img altr="1" src="https://github.com/parin-prog/netflix-clone/blob/master/src/assets/img3.png" height="200">
+<img altr="1" src="https://github.com/parin-prog/netflix-clone/blob/master/src/assets/img4.png" height="400">
+<img altr="1" src="https://github.com/parin-prog/netflix-clone/blob/master/src/assets/img5.png" height="400">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Developed With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
+* [React](https://react.org/) - A javascript library for building user interfaces
+* [React-router](https://reactrouter.com/)  enables "client side routing".
+* [React-redux](https://redux.js/)  A predictable state container.
+* [Bootstrap5](https://getbootstrap.com/)  A powerful, feature-packed frontend toolkit.
+* [Axios](https://www.npmjs.com/package/axios)  Promise based HTTP client for the browser.
+* [TMDB-api](https://www.themoviedb.org/)  A popular, user editable database for movies and TV shows.
+* [Create react app](https://create-react-app.dev/) - A quick method to start developing a react application.
+* [Babel](https://babeljs.io/) - A transpiler for javascript
+* [Webpack](https://webpack.js.org/) - A module bundler
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The following software is required to be installed on your system:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Node 16.x
+* Npm 8.x
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Type the following commands in the terminal to verify your node and npm versions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+node -v
+npm -v
+```
 
-## Learn More
+## How to Run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Clone the Repository**: Start by cloning this repository to your local machine.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Setup**:
+   - Navigate to the frontend directory and run `npm install` to install the required frontend dependencies.
+   - Configure the frontend environment variables as necessary.
+   - Run `npm start` to launch the frontend.
+
+4. **Access the Application**:
+   - Visit the application in your web browser at `http://localhost:3000` (by default for the frontend).
+   - Ensure the backend is running on a different port as specified in your configuration.
+
+

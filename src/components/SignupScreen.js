@@ -15,7 +15,7 @@ const SignupScreen = () => {
       emailRef.current.value,
       passwordRef.current.value
     )
-    .then((authUser)=>{console.log((authUser))})
+    .then((userCredential)=>{console.log(userCredential)})
     .catch((err)=>{alert(err.message)})
   
   }
@@ -25,7 +25,7 @@ const SignupScreen = () => {
       emailRef.current.value,
       passwordRef.current.value
     )
-    .then((authUser)=>{console.log((authUser))})
+    .then((userCredential)=>{console.log(userCredential)})
     .catch((err)=>{alert(err.message)})
   
     e.preventDefault();
