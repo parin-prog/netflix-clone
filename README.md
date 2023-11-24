@@ -20,12 +20,15 @@ application is hosted [HERE!](https://netflix-clone-parin-prog.vercel.app/)
 
 * [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
 * [React](https://react.org/) - A javascript library for building user interfaces
-* [React-router](https://reactrouter.com/)  enables "client side routing".
-* [React-redux](https://redux.js/)  A predictable state container.
-* [Bootstrap5](https://getbootstrap.com/)  A powerful, feature-packed frontend toolkit.
-* [Axios](https://www.npmjs.com/package/axios)  Promise based HTTP client for the browser.
-* [TMDB-api](https://www.themoviedb.org/)  A popular, user editable database for movies and TV shows.
-* [Create react app](https://create-react-app.dev/) - A quick method to start developing a react application.
+* [React-router](https://reactrouter.com/)  enables "client side routing"
+* [React-redux](https://redux.js/)  A predictable state container
+* [Bootstrap5](https://getbootstrap.com/)  A powerful, feature-packed frontend toolkit
+* [Axios](https://www.npmjs.com/package/axios)  Promise based HTTP client for the browser
+* [TMDB-api](https://www.themoviedb.org/)  A popular, user editable database for movies and TV shows
+* [Create react app](https://create-react-app.dev/) - A quick method to start developing a react application
+* [Firebase](https://www.firebase.com/)  A Realtime Database API
+* [Stripe](https://www.stripe.com/)  Provides a variety of payment methods through a single API
+* [Axios](https://www.npmjs.com/package/axios)  Promise based HTTP client for the browser
 * [Babel](https://babeljs.io/) - A transpiler for javascript
 * [Webpack](https://webpack.js.org/) - A module bundler
 
