@@ -51,6 +51,7 @@ npm -v
 ```
 
 ## How to Run
+<<<<<<< HEAD
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine.
 
@@ -64,3 +65,16 @@ npm -v
    - Ensure the backend is running on a different port as specified in your configuration.
 
 
+=======
+
+1. **Clone the Repository**: Start by cloning this repository to your local machine.
+
+3. **Setup**:
+   - Navigate to the frontend directory and run `npm install` to install the required frontend dependencies.
+   - Configure the frontend environment variables as necessary.
+   - Run `npm start` to launch the frontend.
+
+4. **Access the Application**:
+   - Visit the application in your web browser at `http://localhost:3000` (by default for the frontend).
+   - Ensure the backend is running on a different port as specified in your configuration.
+>>>>>>> 3b8be5c3ea11f2c20a94aee512ad129bfd240f67
